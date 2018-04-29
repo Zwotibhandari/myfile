@@ -1,0 +1,59 @@
+body{/*whole size of about page*/
+	margin: 0;/*space manage*/
+	background-image: url("my.jpg.jpg");/*walpaper for background*/
+	background-size: cover;/*image position*/
+}
+header h1{/*Header of page started*/
+	padding: 8px 0px 6px 40px;/*Text size manage*/
+	height: 50px;/*Height of the text*/
+	text-align: center;/*the words are made bettwen the page */
+	background-image: url("my.jpg");/*picture for background*/
+	font-size: 35px;/*size of letters*/
+	margin-top: 1%;/*gaps at top header*/
+}
+ul{/*it defines an unordered list*/
+	list-style: none;/*no design is given*/
+	margin: 0; padding: 0;/*space manage*/
+	overflow: hidden;/*overflow is hidden*/
+	background-color: grey;/*background colour given*/
+}
+li{/*it is used to order the list*/
+	float: left;/*direction of the list*/
+}
+li a{/*it denotes the navigation of the page*/
+	display: block;/*size of box*/
+	color: white;/*color of the text*/
+	font-weight: bold;/*text can be seen clearly*/
+	color: #FFFFFF;/*background color*/
+	width: 120px;/*whole size of the text*/
+	padding: 16px 16px;/*space manage*/
+	text-align: center;/*the words are made bettwen the page */
+	text-decoration: none;/*no design is made for the text*/
+}
+li a:hover,a:active{/*hover is made so we know where to click the page*/
+	background-color: red;/*background color for the nagivation*/
+}
+.information{/*about information is given*/
+	text-align: left;/*text is written in the left*/
+	font-size: 23px;/*size of the text*/
+	font-weight: 100;/*text font size*/ 
+	margin-top: 23%;/*size of the words*/
+    margin-left: 5%;
+    color: white;/*text color*/
+    font-weight: 900px;
+
+
+}
+footer h1{
+	text-align: center;
+	margin-top: -2%;
+	font-size: 40px;
+	color: black;
+
+}
+footer img{
+	margin: 1%;
+	margin-top: -2%;
+	align-items: center;
+	margin-left: 30%; 
+}

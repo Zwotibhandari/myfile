@@ -1,0 +1,145 @@
+body{/*whole size of contact page*/
+	margin: 0; padding: 0;/*space manage/
+	background-image: url("sun.jpg.jpg");/*walpaper for background*/
+	height: 100%;/*whole size of height is 100%*/
+	background-size: cover;
+}
+header h1{/*Header for page started*/
+	padding: 8px 0px 6px 40px;/*Text size manage*/
+	height: 50px;/*Height of the text*/
+	text-align: center;/*words written in the center of header*/
+	font-size: 35px;
+	margin-top: 1%;
+}
+ul{/*it defines an unordered list*/
+	list-style: none;/*no design is given*/
+	margin: 0; padding: 0;/*space manage*/
+	overflow: hidden;/*overflow is hidden*/
+	background-color: Grey;/*background colour given*/
+}
+li{/*it is used to order the list*/
+	float: left;/*direction of the list*/
+}
+li a{/*it denotes the navigation of the page*/
+	display: block;/*size of box*/
+	color: white;/*color of the text*/
+	font-weight: bold;/*text can be seen clearly*/
+	color: #FFFFFF;/*background color*/
+	width: 120px;/*whole size of the text*/
+	padding: 16px 16px;/*space manage*/
+	text-align: center;/*middle of the page*/
+	text-decoration: none;/*no design is made*/
+}
+li a:hover,a:active{/*hover is made so we know where we click the page*/
+	background-color: red;/*background color for navigation*/
+}
+body{/*whole size of the login box*/
+	margin: 0; padding: 0;/*margin and padding is not needed*/
+	background-size: cover;
+	background: url(cup.jpg);/*walpaper for background*/
+	background-position: center;/*position of background is in center*/
+	font-family: sans-serif;/*style of letters*/
+}
+.Loginbox{/*the where we login id*/
+	height:366px;/*height of the loginbox*/
+	width: 260px;/*widht of loginbox*/
+	background: #000;/*background color*/ 
+	color: #fff;/*color of the text*/
+	top: 55%;/*loginbox is below the navigation bar*/
+	left: 40%;/*left size 40% gap*/
+	position: absolute;/*position is exact*/
+	transform: translate(-40%,-50%);
+	box-sizing: border-box;/*size of the box*/
+	padding: 70px 30px;/*one side is left 70px and another is 30px*/
+
+}
+.avatar{/*logo*/
+	height: 80px;/*height of the logo*/
+	width: 100px;/*width of the logo*/
+	border-radius: 50%;/*radius size*/
+	top: -40px;/*half of the top login box*/
+	position: absolute;/*exact positoin*/
+	left: calc(50% - 50px);/*in the left side 50% gap and in right -50px*/
+
+}
+h1{/*size of the login*/
+	margin: 0;/*margin not needed*/
+	padding:  0 20px;/*manage the login size*/
+	text-align: center;/*login word is in center*/
+	font-size: 22px;/*size of font*/
+
+}
+.loginbox p {/*main point of the words*/
+	margin: 0; padding: 0;/*size of the box*/
+	font-weight: bold;/*font weight is in bold shape*/
+} 
+.loginbox input{/*place where we type username*/
+	width: 100%;/*size of width*/
+	margin-bottom:  20px;/*size of margin bottom*/ 
+
+}
+.loginbox input[type="text"], input[type="password"]
+{/*place where we type password*/
+	border: none;/*border not mention*/
+	border-bottom: 1px solid #fff;/*solid bottom is made*/
+	background: transparent;/*transparent is made*/
+	outline: none;/*outline has not mention*/
+	height: 40px;/*height of password*/
+	color: #fff;/*color of the text*/
+	font-size: 16px;/*mention the size of font 16px*/
+
+}
+.loginbox input[type="text"], input[type="User name"]
+{/*place where we type Username*/
+	border: none;/*border not mention*/
+	border-bottom: 1px solid #fff;/*solid bottom is made*/
+	background: transparent;/*transparent is made*/
+	outline: none;/*outline has not mention*/
+	height: 40px;/*height of username*/
+	color: #fff;/*color of the text*/
+	font-size: 16px;/*mention the size of font 16px*/
+}
+.map{
+	margin-top: 35%;
+}
+iframe{
+	width: 95%;
+	width: 1%;
+	padding: 3%;
+	width: 29%;
+	margin-top: 35%;
+	height: 65vh;
+
+}
+article{
+	display: flex;
+}
+.loginbox input[type="text"], input[type="submit"]
+{/*place where we login after text username and password*/
+	border: none;/*border not mention*/
+	height: 25px;/*height of login bottom*/
+	text-align: center;/*text align is in center*/
+	background: orange;/*color of the login box*/
+	color: white;/*text of the login*/
+	font-size: 20px;/*font size of login*/
+	border-radius: 20px;/*border of login buttom is radius*/
+}
+.loginbox input[type="submit"]:hover
+{/*hover for the login buttom*/
+	cursor: pointer;/*point for login section*/
+	background: #ffc107;/*color for the text*/
+	color: orange;/*color of the buttom*/
+}
+footer h1{
+	text-align: center;
+	margin-top: 2%;
+	font-size: 40px;
+	color: black;
+
+}
+footer img{
+	margin: 1%;
+	margin-top: -2%;
+	align-items: center;
+	margin-left: 30%; 
+}
